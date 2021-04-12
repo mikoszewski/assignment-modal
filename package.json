@@ -1,0 +1,18 @@
+{
+  "name": "my-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Krzysztof Mikoszewski",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7"
+  }
+}
