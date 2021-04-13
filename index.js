@@ -15,9 +15,9 @@ const now = new Date(); //NOW date
 const tomorrowUCT = new Date(
   now.getUTCFullYear(),
   now.getUTCMonth(),
-  now.getUTCDate(),
+  now.getUTCDate() + 1,
   now.getUTCHours() + 2,
-  now.getUTCMinutes() + 1,
+  now.getUTCMinutes(),
   now.getUTCSeconds()
 );
 
