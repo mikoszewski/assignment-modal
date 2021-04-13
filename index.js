@@ -93,23 +93,8 @@ const init = async function () {
     declineBtn.addEventListener("click", rejectDecision);
     acceptBtn.addEventListener("click", acceptDecision);
 
-    document.cookie =
-      "id=4, id=Paola, id=Aloes, id=pies, id=kot; ; expires=Sun, Apr 11 2021 18:44:20 GMT";
-
     console.log(document.cookie);
     console.log(now);
-
-    //this will setup time Cookies for 24h
-    // document.cookie = `username=BookAAA; expires=Sat, Apr 10 2021 19:40:50 GMT`;
-    //to czyści COOKIES!
-    // document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-
-    //Delete all cookies!
-    // document.cookie.split(";").forEach(function (c) {
-    //   document.cookie = c
-    //     .replace(/^ +/, "")
-    //     .replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
-    // });
   } catch (err) {
     console.log(err);
   }

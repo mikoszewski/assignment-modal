@@ -90,3 +90,7 @@ p {
   position: relative;
   margin-top: 300px;
 }
+
+.tab2 {
+  display: flex;
+}
